@@ -9,22 +9,18 @@
                 margin: 0;
             }
             #pagetitle{
-                float: left;
-                display: flex;
                 color: transparent;
                 background: linear-gradient(to bottom, #47477e, lightgrey);
                 -webkit-background-clip: text;
-                padding-left: 100px;
-                padding-bottom: 50px;
+                margin-left: 120px;
                 font-size: 20px;
                 font-family: 'Verdana';
             }
             #menu1 {
                 float: left;
-                display: flex;
+                display: inline;
                 width: 100%;
                 list-style-type: none;
-                background-color: #767676;
                 padding-bottom: 0px;
                 height: 60px;
                 background: linear-gradient(to bottom, white, #b8b7b7);
@@ -34,7 +30,6 @@
             }
             #menu1 a {
                 padding: 20px 25px;
-                margin: 0;
                 color: #000000;
                 text-decoration: none;
                 font-size: small;
@@ -46,8 +41,10 @@
                 padding-top: 32px;
             }
             #menu1 ul {
-                margin-right: 0;
-                padding-right: 0;
+                float: right;
+                display: flex;
+                margin-right: 80px;
+                margin-top: -35px;
             }
             /* Additional styling for paragraph */
             
@@ -57,16 +54,17 @@
             .paragraph1 h2 {
                 color: rgb(209, 207, 218);
                 font-family: 'Verdana';
-                margin-left: 100px;
+                margin-left: 80px;
             }
             .paragraph1 p{
                 font-family: 'Verdana';
                 color: white;
                 font-size: small;
-                margin-left: 100px;
+                margin-left: 80px;
                 margin-top: 0px;
             }
             .contaner img {
+                float: right;
                 width: 300px;
                 padding-top: 20px;
                 padding-bottom: 20px;
@@ -86,24 +84,51 @@
                 background-color: rgb(132, 125, 158);
                 padding: 2px;
             }
-            .contaner2 ul{
+            .contaner2 img {
+                float: right;
+                width: 300px;
+                margin-right: 80px; /* Adjusted margin to be consistent with changes */
+            }
+            .paragraph2 {
                 display: flex;
             }
-            .contaner2 h5 {
-                color: gray;
-                font-family: 'Verdana';
-                margin-left: 70px;
-            }
-            .contaner2 p{
+            .text {
+                float: left;
+                margin-left: 120px;
+                padding-right: 40px;
                 font-family: 'Verdana';
                 color: gray;
-                font-size: small;
-                margin-left: 70px;
             }
-            .contaner2 img {
-                width: 200px;
-                margin-right: 0px; /* Adjusted margin to be consistent with changes */
+            .smalltext {
+                display: flex;
             }
+            .small1 {
+                margin-right: 40px;
+            }
+
+            .small2 a{
+                float: right;
+            }
+            footer {
+                padding: 20px;
+                background-color: #e3e2e2;
+                display: table-cell;
+            }
+            footer .text1{
+                color: gray;
+                display: flex;
+                margin-left: 100px;
+                margin-right: 80px;
+            }
+            footer .one{
+                float: left;
+            }
+            footer .two{
+                float: right;
+                margin: 100px;
+            }
+            
+            
         </style>
     </head>
     <body>
@@ -127,12 +152,46 @@
             </div>
         </div>
         <div class="paragraph2">
-            <div class="contaner2">
-                <ul>
-                    <li><h5><strong>pixel juice</strong> is a team of creative designers and talented developers who are passionate about building high quality websites and web applications.</h5>
-                    <p>we are <strong>pixel juice</strong>. We build creative, unique and user friendly websites and web applicatio kqskjs sjq; qjsa kjqbxj xkjqbx kjsbxjqx ksqbxL xqjkxkbxkjxkj c hci oecoeihocihez  zc oie ceizchoeiahoaih coe c ae caoi cihac ai caio<br><br>We would love to work with yousqjjsnjqnxsjkqnxkjqk xkjqs kxj qsk xjqs xkjqxjsq xkjazx azjk xksq xkjqs kx qjks xkjq sxk qskj xkj xkja xkaz xza</p></li>
-                    <li><img src="picture.PNG" alt="Featured Project"/></li>
-                </ul>
+            <div class="text">
+                <h4><strong>pixel juice</strong> is a team of creative designers and talented developers who are passionate about building high quality websites and web applications. We strive to deliver innovative solutions to meet your needs.</h5>
+                <p>lorens input was something out of this world just finish the paragraph with whatever to make it look more engaging and informative for the audience.</p>
+                <h4>Our Latest News</h4>
+                <div class="smalltext">
+                    <div class="small1">
+                        <p><strong>Nunc as felis. Duls sed mi.</strong></p>
+                        <p>Stay tuned for more updates and insights from our team your web experience.</p>
+                        <p><strong>Your engaging input can elevate our message!</strong></p>
+                        <p>We always strive for excellence in everng that our clients visions come to life.</p>
+                    </div>
+                    <div class="small2">
+                        <p><strong>Nunc as felis. Duls sed mi.</strong></p>
+                        <p>Stay tuned for more updates ane to innovate and enhance your web experience.</p>
+                        <p><strong>Your engaging input can elevate our message!</strong></p>
+                        <p>We always strive for excellence in evering that our clients visions come to life.</p>
+                        <a href="#" style="color: gray; text-decoration: none;">More News ></a>
+                    </div>
+                </div>
             </div>
+            <div class="contaner2">
+                <img src="picture.PNG" alt="Featured Project"/>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="text1">
+                <article id="one">
+                    <h5>Our Accessibility Policy:</h5>
+                    <p>we are a group of scilled poeple who will work hard on making your website 
+                        interactive and user-friendly by implementing our best featchers
+                        dazdezde zeczcz
+                    </p>
+                </article>
+                <article id="two">
+                    <h3>Contact Us</h3>
+                    <p><strong>06 66 54 59 60</strong></p>
+                </article>
+            </div>
+        </footer>
+
     </body>
 </html>
