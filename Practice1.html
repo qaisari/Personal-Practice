@@ -91,6 +91,7 @@
             }
             .paragraph2 {
                 display: flex;
+                padding-bottom: 100px;
             }
             .text {
                 float: left;
@@ -112,20 +113,26 @@
             footer {
                 padding: 20px;
                 background-color: #e3e2e2;
-                display: table-cell;
             }
             footer .text1{
                 color: gray;
-                display: flex;
                 margin-left: 100px;
                 margin-right: 80px;
+                padding-bottom: 100%;
             }
-            footer .one{
-                float: left;
+            footer article{
+               display: table-cell;
+                
             }
-            footer .two{
-                float: right;
-                margin: 100px;
+            #one{
+            }
+            #two{
+                padding-left: 80px;
+                width: 400px;
+            }
+            #three{
+                width: 300px;
+                text-align: right;
             }
             
             
@@ -180,15 +187,18 @@
         <footer>
             <div class="text1">
                 <article id="one">
-                    <h5>Our Accessibility Policy:</h5>
-                    <p>we are a group of scilled poeple who will work hard on making your website 
-                        interactive and user-friendly by implementing our best featchers
-                        dazdezde zeczcz
-                    </p>
+                    <p>Client Login:</p>
+                    <input type="text" name="Username" placeholder="Username" style="background-color: rgb(186, 184, 184); padding-left: 10px; font-family: 'Verdana';" pattern="[A-Z,a-z, ]{8}[A-Z,a-z, ]*" required><br>
+                    <input type="password" name="Password" placeholder="Password" style="background-color: rgb(186, 184, 184); padding-left: 10px; font-family: 'Verdana'; margin-top: 10px;" pattern="[A-Z,a-z, ]{8}[A-Z,a-z, ]*" required><br>
+                    <p><a href="#" style="font-family: 'Verdana'; text-decoration: none; color: gray;">Lost password?</a> <button type="submit" style="background-color: rgb(186, 184, 184); float: right; font-family: 'Verdana';">Go</button></p>
                 </article>
                 <article id="two">
-                    <h3>Contact Us</h3>
-                    <p><strong>06 66 54 59 60</strong></p>
+                    <p><strong>Our Accessibility Policy:</strong></p>
+                    <p>Lorem ipsum dolor ait amot, consectetur adipiscing elit. Sedleo neque, leo messi is better then cr7. Nunc lacreet accumsan eros. Lorem ipsum dolor sit amet. consectetur adipiscing elit</p>
+                </article>
+                <article id="three">
+                    <p style="font-family: 'Verdana'; font-size: 25px;">Contact Us:</p>
+                    <p style="font-family: 'Verdana'; font-size: 22px;"><strong>06 66 54 59 60</strong></p>
                 </article>
             </div>
         </footer>
