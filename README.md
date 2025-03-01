@@ -12,7 +12,7 @@ Welcome to **Pixel Juice**! This sleek and modern website is built for creative 
 
 ## 📂 Live Demo
 Check out the live version of the site: 
-<a href="https://qaisari.github.io/Personal-Practice/Practice1.html">Pixel Juice Demo</a>
+<a target="_blank" href="https://qaisari.github.io/Personal-Practice/Practice1.html">Pixel Juice Demo</a>
 
 ## 🛠️ Technologies Used
 - HTML5 & CSS3  
