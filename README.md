@@ -1,17 +1,18 @@
 # 🌟 Pixel Juice - Creative Web Design 🌟
 
-Welcome to **Pixel Juice**! This is a sleek and modern website built for creative designers and developers passionate about crafting high-quality websites and web applications.
+Welcome to **Pixel Juice**! This sleek and modern website is built for creative designers and developers who are passionate about crafting high-quality websites and web applications.
 
-![Pixel Juice Website](website-model.png)
+<img src="website-model.png" alt="Pixel Juice Website" width="50%">
 
 ## 🚀 Features
 - ✨ Clean and professional design  
 - 📱 Responsive layout for all devices  
 - 🎨 Smooth UI with a modern aesthetic  
-- 🔗 Easy navigation with clear call-to-actions  
+- 🔗 Easy navigation with clear calls to action  
 
 ## 📂 Live Demo
-Check out the live version of the site: [**Pixel Juice on GitHub Pages**](https://your-github-username.github.io/your-repo-name)
+Check out the live version of the site: 
+<a href="file:///C:/Users/qaisa/Desktop/NJE/semester4/Web%20Programming%20I/Practice/Personal%20Practice/Practice1.html#">Pixel Juice Demo</a>
 
 ## 🛠️ Technologies Used
 - HTML5 & CSS3  
@@ -21,8 +22,7 @@ Check out the live version of the site: [**Pixel Juice on GitHub Pages**](https:
 ## 📬 Contact
 Have feedback or want to collaborate? Feel free to reach out!  
 
-🔹 **Email:** your-email@example.com  
-🔹 **GitHub:** [Your GitHub Profile](https://github.com/your-github-username)  
+🔹 **Email:** qaisariayman@gmail.com   
 
 ---
 
